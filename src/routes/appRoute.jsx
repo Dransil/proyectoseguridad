@@ -1,12 +1,15 @@
-import React from 'react'
-import { Route } from 'react-router-dom'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Menu } from '../components/navigation/menu';
 
-export const AppRoute = () => {
-    return (
-        <>
-        <Routes>
-            <Route path='/' element></Route>
-        </Routes>
-        </>
-    )
-}
+const AppRoute = () => {
+  return (
+    <Routes >
+        <Route>
+          <Route path='/' element={<Menu />}></Route>
+        </Route>
+    </Routes>
+  );
+};
+
+export default AppRoute;
