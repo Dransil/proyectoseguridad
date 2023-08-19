@@ -3,9 +3,9 @@ import React from 'react'
 export const Menu = () => {
     return (
         <>
-        <p>
-            cuchau
-        </p>
+        <h1>
+            Este es el menu provisional
+        </h1>
         </>
     )
 }
