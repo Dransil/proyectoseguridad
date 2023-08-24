@@ -4,7 +4,7 @@ export const Menu = () => {
     return (
         <>
         <h1>
-            Este es el menu provisional
+            Iniciando menu
         </h1>
         </>
     )
