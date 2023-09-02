@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Menu } from '../components/navigation/menu';
+import { MenuPrincipal } from '../components/navigation/menu';
 
 const AppRoute = () => {
   return (
     <Routes >
         <Route>
-          <Route path='/' element={<Menu />}></Route>
+          <Route path='/' element={<MenuPrincipal />}></Route>
         </Route>
     </Routes>
   );
